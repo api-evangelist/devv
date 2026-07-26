@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://hub.devv.ai/changelog
+scheme: date-based
+current_version: "Devv 2.0"
+notes: >-
+  Devv publishes a dated product changelog (no semantic versioning). Devv is an
+  AI coding agent / instant-backend app builder, not a versioned public API, so
+  entries track product capabilities rather than API surface changes.
+entries:
+  - date: '2025-08-27'
+    title: Element Selection
+    type: addition
+    highlights: >-
+      Select UI elements directly instead of describing them in prose, reducing
+      miscommunication and speeding up the build workflow.
+  - date: '2025-08-27'
+    title: Public Launch
+    type: milestone
+    highlights: >-
+      Devv officially launched publicly after multiple beta iterations, as a
+      platform for building real AI products with integrated LLM and backend
+      capabilities.
+  - date: '2025-08-14'
+    title: Image Generation Integration (Devv Image Gen)
+    type: addition
+    highlights: >-
+      Build apps that generate both text and images without external accounts
+      or API keys.
+  - date: '2025-05-14'
+    title: Devv 2.0 Beta
+    type: milestone
+    breaking: true
+    highlights: >-
+      Major rebuild transforming Devv from a developer search engine into a
+      no-code AI app builder with a three-step workflow.

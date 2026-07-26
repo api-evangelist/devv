@@ -1,8 +1,18 @@
 aid: devv
 name: Devv
-description: 'Devv is a company surfaced as a portfolio company of dcm-ventures and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Devv (devv.ai) is an AI coding agent and instant-backend platform that lets
+  indie builders, small teams, and non-technical creators ship full-stack,
+  AI-powered web applications from natural-language prompts. It began as a
+  developer-focused AI search engine and was rebuilt as Devv 2.0 into a no-code
+  app builder with a three-step workflow. The platform pairs code generation
+  with built-in backend integrations — authentication, database, email, LLM
+  chat, image and audio generation — plus third-party connectors such as
+  OpenRouter, Replicate, and ElevenLabs, alongside web search and web reader
+  tooling. Devv is a product company rather than a public API provider: it
+  publishes docs, a dated changelog, and an llms.txt, but exposes no public REST
+  API, OpenAPI specification, SDKs, or hosted MCP server at this time. Backed by
+  DCM Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/devv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://devv.ai/en/opengraph-image.png
 tags:
 - Company
 - Frontier Tech
+- Artificial Intelligence
+- AI Coding Agent
+- Developer Tools
+- Application Development
+- No-Code
+- Backend as a Service
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,29 @@ maintainers:
 common:
 - type: Website
   url: https://devv.ai/
+- type: Documentation
+  url: https://docs.devv.ai/introduction
+- type: GettingStarted
+  url: https://docs.devv.ai/getting-started
+- type: Pricing
+  url: https://devv.ai/pricing
+- type: Login
+  url: https://hub.devv.ai/login
+- type: Support
+  url: https://discord.gg/BxNTkUzEnG
+- type: GitHubOrganization
+  url: https://github.com/devv-ai
+- type: ChangeLog
+  url: https://hub.devv.ai/changelog
+- type: ChangeLog
+  name: Devv changelog (structured)
+  url: changelog/devv-changelog.yml
+- type: LLMsTxt
+  url: llms/devv-llms.txt
+- type: DomainSecurity
+  url: security/devv-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

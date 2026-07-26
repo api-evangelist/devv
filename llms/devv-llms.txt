@@ -1,0 +1,23 @@
+# Devv Documentation
+
+## Docs
+
+- [FAQ](https://docs.devv.ai/FAQ.md): Frequently asked questions about Devv
+- [Getting started](https://docs.devv.ai/getting-started.md): Start building your first AI app with Devv
+- [Devv Authentication](https://docs.devv.ai/integrations/authentication.md): Add login system to your project
+- [Devv Database Integration](https://docs.devv.ai/integrations/devv-database.md): Store your data inside Devv
+- [Devv Email](https://docs.devv.ai/integrations/devv-email.md): Add email capabilities to your project
+- [ElevenLabs Integration](https://docs.devv.ai/integrations/elevenlabs.md): Make your app talk
+- [What is Devv integration?](https://docs.devv.ai/integrations/introduction.md): Use Devv integrations to make your app more powerful
+- [Devv LLM](https://docs.devv.ai/integrations/llm.md): Add a chatbot to your website
+- [Nano Banana](https://docs.devv.ai/integrations/nano-banana.md): Use the latest Gemini image generation model in your project!
+- [OpenRouter Integration](https://docs.devv.ai/integrations/openrouter.md): Connect OpenRouter to use hundreds of LLM in your project.
+- [Replicate Integration](https://docs.devv.ai/integrations/replicate.md): Explore thousands of models with Replicate integration
+- [Devv Web Reader](https://docs.devv.ai/integrations/web-reader.md): Extract clean, structured content from any web page.
+- [Devv Web Search](https://docs.devv.ai/integrations/web-search.md): Allow your app to search the internet
+- [Welcome to Devv](https://docs.devv.ai/introduction.md): Build your first AI-powered product here
+
+## Optional
+
+- [Documentation](https://docs.devv.ai/introduction)
+- [Community](https://discord.gg/BxNTkUzEnG)
