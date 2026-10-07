@@ -1,0 +1,75 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://devv.ai/pricing
+sources:
+- https://devv.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: 👑 Pro
+published: true
+note: Subscription tiers with credit allowances plus one-time add-on credit packs; yearly billing saves
+  20%.
+plan_count: 7
+currency: USD
+plans:
+- name: Free
+  price_text: $0
+  price: 0
+  currency: USD
+  period: month
+  included_quota: 300 credits/month, 3 projects maximum, Community support
+- name: Pro
+  price_text: $25
+  price: 25
+  currency: USD
+  period: month
+  included_quota: 2,500 credits every month, unlimited projects, private projects, custom domains
+  overage: Add-on credit packs available
+- name: Team
+  price_text: $49
+  price: 49
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: 3,000 credits/seat (pooled for the team)
+  overage: Add-on credit packs available
+- name: Starter Pack
+  price_text: $10
+  price: 10
+  currency: USD
+  period: one-time
+  unit: 1,000 credits
+  included_quota: 1,000 credits ($1.00 per 100 credits)
+- name: Developer Pack
+  price_text: $45
+  price: 45
+  currency: USD
+  period: one-time
+  unit: 5,000 credits
+  included_quota: 5,000 credits ($0.90 per 100 credits), Save 10%
+- name: Power Pack
+  price_text: $85
+  price: 85
+  currency: USD
+  period: one-time
+  unit: 10,000 credits
+  included_quota: 10,000 credits ($0.85 per 100 credits), Save 15%
+- name: Launch Pack
+  price_text: $320
+  price: 320
+  currency: USD
+  period: one-time
+  unit: 40,000 credits
+  included_quota: 40,000 credits ($0.80 per 100 credits), Save 20%
+rate_limit_statements:
+- 300 credits/month
+- 3 projects maximum
